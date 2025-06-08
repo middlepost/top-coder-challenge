@@ -85,6 +85,21 @@ When you're ready to submit:
 3. Submit via the [submission form](https://forms.gle/sKFBV2sFo2ADMcRt8).
 4. When you submit the form you will submit your `private_results.txt` which will be used for your final score.
 
+## License
+
+This project is released under the MIT License.  See the `LICENSE` file for details.
+
+## Generating answers for the private test set
+
+Once you are happy with `template.py`, create the prediction file expected by the submission form:
+
+```bash
+python3 generate_private_answers.py
+# ⇒ creates private_answers.txt with one reimbursement per line
+```
+
+`private_answers.txt` is what you will upload along with your repository link.
+
 ---
 
 **Good luck and Bon Voyage!**
